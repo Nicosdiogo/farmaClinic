@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Farmaclinic</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<link rel="shortcut icon" href="images/Farma Clinic foto de perfil.png">
+
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+	<!-- FONTS -->
+	<link
+		href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic'
+		rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+	<!-- SCRIPTS -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<!--[if IE]><html class="ie" lang="en"> <![endif]-->
+
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+	<script src="js/superfish.min.js" type="text/javascript"></script>
+	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script src="js/animate.js" type="text/javascript"></script>
+	<script src="js/jquery.BlackAndWhite.js"></script>
+	<script src="js/myscript.js" type="text/javascript"></script>
+	<script>
+
+		//PrettyPhoto
+		jQuery(document).ready(function () {
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+
+		//BlackAndWhite
+		$(window).load(function () {
+			$('.client_img').BlackAndWhite({
+				hoverEffect: true, // default true
+				// set the path to BnWWorker.js for a superfast implementation
+				webworkerPath: false,
+				// for the images with a fluid width and height 
+				responsive: true,
+				// to invert the hover effect
+				invertHoverEffect: false,
+				// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+				intensity: 1,
+				speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+					fadeIn: 300, // 200ms for fadeIn animations
+					fadeOut: 300 // 800ms for fadeOut animations
+				},
+				onImageReady: function (img) {
+					// this callback gets executed anytime an image is converted
+				}
+			});
+		});
+
+	</script>
+
+</head>
+
+<body>
+
+	<!-- PRELOADER -->
+	<img id="preloader" src="images/preloader.gif" alt="" />
+	<!-- //PRELOADER -->
+	<div class="preloader_hide">
+
+		<!-- PAGE -->
+		<div id="page">
+
+			<!-- HEADER -->
+			<header>
+
+				<!-- MENU BLOCK -->
+				<div class="menu_block">
+
+					<!-- CONTAINER -->
+					<div class="container clearfix">
+
+						<!-- LOGO -->
+						<div class="logo pull-left">
+							<a style="font-size: 12px;" href="index.html"><img src="images/farmaclinic.png"></a>
+
+						</div><!-- //LOGO -->
+
+						<!-- SEARCH FORM -->
+						<div id="search-form" class="pull-right">
+							<form method="get" action="#">
+								<input type="text" name="Search" value="Search"
+									onFocus="if (this.value == 'Search') this.value = '';"
+									onBlur="if (this.value == '') this.value = 'Search';" />
+							</form>
+						</div><!-- SEARCH FORM -->
+
+						<!-- MENU -->
+						<div class="pull-right">
+							<nav class="navmenu center">
+								<ul>
+
+									<li class="scroll_btn"><a href="#about">Farmácia</a></li>
+									<li class="scroll_btn"><a href="#projects">Centro Médico</a></li>
+									<li class="scroll_btn"><a href="#news">Notícias</a></li>
+									<li class="scroll_btn last"><a href="#contacts">Contacts</a></li>
+									<li class="sub-menu">
+										<a href="javascript:void(0);">Pages</a>
+										<ul>
+											<li><a href="blog.html">Contactos</a></li>
+											<li><a href="blog-post.html">Blog Post</a></li>
+											<li><a href="portfolio-post.html">Portfolio Single Work</a></li>
+										</ul>
+									</li>
+								</ul>
+							</nav>
+						</div><!-- //MENU -->
+					</div><!-- //MENU BLOCK -->
+				</div><!-- //CONTAINER -->
+			</header><!-- //HEADER -->
+
+
+			<!-- HOME -->
+			<section id="home" class="padbot0">
+
+				<!-- TOP SLIDER -->
+				<div class="flexslider top_slider">
+					<ul class="slides">
+						<li class="slide1">
+							<div class="flex_caption1" style="color: #fafafa;">
+								<p class="title1 captionDelay2 FromTop">FarmaClinic</p><br>
+								<p class="title4 captionDelay4 FromTop" style="color: #00BF63;"> Centro
+									Medico & Farmácia</p>
+								<p class="title4 captionDelay7 FromBottom">It has survived not only five centuries, but
+									also the leap into electronic typesetting, remaining essentially unchanged. It was
+									popularised in the 1960s with the release of Letraset sheets containing Lorem
+									Ipsum..</p>
+							</div>
+						</li>
+						<li class="slide2">
+							<div class="flex_caption1">
+								<p class="title1 captionDelay6 FromLeft">Responsive</p>
+								<p class="title2 captionDelay4 FromLeft">Design</p>
+								<p class="title3 captionDelay2 FromLeft">Theme</p>
+								<p class="title4 captionDelay7 FromLeft">The template is suitable for any company and
+									the direction that appreciates style, purity and quality of the web site.</p>
+							</div>
+							<a class="slide_btn FromRight" href="javascript:void(0);">Read More</a>
+						</li>
+						<li class="slide3">
+							<div class="flex_caption1">
+								<p class="title1 captionDelay1 FromBottom">Amazing</p>
+								<p class="title2 captionDelay2 FromBottom">Video</p>
+								<p class="title3 captionDelay3 FromBottom">Background</p>
+								<p class="title4 captionDelay5 FromBottom">The template is suitable for any company and
+									the direction that appreciates style, purity and quality of the web site.</p>
+							</div>
+							<a class="slide_btn FromRight" href="javascript:void(0);">Read More</a>
+
+							<!-- VIDEO BACKGROUND -->
+							<a id="P2" class="player"
+								data-property="{videoURL:'tDvBwPzJ7dY',containment:'.top_slider .slide3',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>
+							<!-- //VIDEO BACKGROUND -->
+						</li>
+						<li class="slide3">
+							<div class="flex_caption1">
+								<p class="title1 captionDelay1 FromBottom">TEXTOTEXTO</p>
+								<p class="title2 captionDelay2 FromBottom">Video</p>
+								<p class="title3 captionDelay3 FromBottom">Background</p>
+								<p class="title4 captionDelay5 FromBottom">The template is suitable for any company and
+									the direction that appreciates style, purity and quality of the web site.</p>
+							</div>
+							<a class="slide_btn FromRight" href="javascript:void(0);">Read More</a>
+						</li>
+						<li class="slide2">
+							<div class="flex_caption1">
+								<p class="title1 captionDelay6 FromLeft">Responsive</p>
+								<p class="title2 captionDelay4 FromLeft">Design</p>
+								<p class="title3 captionDelay2 FromLeft">Theme</p>
+								<p class="title4 captionDelay7 FromLeft">The template is suitable for any company and
+									the direction that appreciates style, purity and quality of the web site.</p>
+							</div>
+							<a class="slide_btn FromRight" href="javascript:void(0);">Read More</a>
+						</li>
+						<li class="slide1">
+							<div class="flex_caption1" style="color: #fafafa;">
+								<p class="title1 captionDelay2 FromTop">FarmaClinic</p><br>
+								<p class="title4 captionDelay4 FromTop" style="color: #00BF63;"> Centro
+									Medico & Farmácia</p>
+								<p class="title4 captionDelay7 FromBottom">It has survived not only five centuries, but
+									also the leap into electronic typesetting, remaining essentially unchanged. It was
+									popularised in the 1960s with the release of Letraset sheets containing Lorem
+									Ipsum..</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div id="carousel">
+					<ul class="slides">
+
+						<li><img src="images/slider/1.png" alt="" /></li>
+						<li><img src="images/133.jpg" alt="" /></li>
+						<li><img src="images/slider/2.png" alt="" /></li>
+						<li><img src="images/slider/3.png" alt="" /></li>
+						<li><img src="images/slider/4.png" alt="" /></li>
+
+
+
+						<li>
+							<div style="padding: 10px 20px; background-color: #fff; text-align: left;">
+								<div>
+									<h1 class="title"
+										style="font-size: 12px; font-weight: 600; color: #439E3E; text-transform: uppercase;">
+										PLANOS DE SAÚDE FarmaClinic</h1>
+								</div>
+								<div>
+									<p class="title" style="font-size: 20px; font-weight: 800;">Temos o plano certo para
+										si</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div><!-- //TOP SLIDER -->
+			</section><!-- //HOME -->
+
+
+			<!-- ABOUT -->
+			<section id="about">
+
+				<div class="" style="padding: 60px; background-color: transparent">
+					<br><br>
+					<h1 class="title1" style="font-weight: 700;text-align: center; padding-bottom: 10px;">A Sua Saúde
+						é Nossa Prioridade</h1>
+
+
+
+				</div>
+
+				<!-- SERVICES -->
+				<div class="services_block padbot40" data-appear-top-offset="-550" data-animated="fadeInLeft"
+					style="justify-content: center; ">
+
+
+					<!-- CONTAINER -->
+					<div class="container">
+						<div class="col-12">
+							<div class="owl-demo owl-carousel projects_slider"
+								style="padding: 40px; text-align: center; ">
+
+
+
+								<div
+									style="width: 260px; height: 400px;  box-shadow: 0 0px 8px 0 rgb(0 0 0 / 8%), 0 2px 4px 0 rgb(0 0 0 / 6%); border-radius: 10px; background-color: #f8fafc;">
+									<div style="padding: 10px;">
+										<img src="images/farma.jpg" width="100px">
+									</div>
+									<div style="height: 180px; ">
+										<a class="services_item">
+											<p><b>Consulta de Medicina Geral e	
+												Familiar
+												</b> </p>
+											<span style="padding: 0px 10px ;">O objetivo da consulta de Medicina Geral e
+												familiar é
+												providenciar tratamento em casos mais agudos, bem
+												como seguir o doente em caso de doença mais
+												complexa. </span>
+										</a>
+									</div>
+									<div class="purpose_block">
+										<a class="btn btn-active" href="Consulta.html" style="border-radius: 10px;"><span
+												data-hover="Explore">Saber
+												Mais</span></a>
+									</div>
+								</div>
+
+								<div
+									style=" width: 260px; height: 400px; box-shadow: 0 0px 8px 0 rgb(0 0 0 / 8%), 0 2px 4px 0 rgb(0 0 0 / 6%); border-radius: 10px; background-color: #f8fafc;">
+									<div style="padding: 10px;">
+										<img src="images/1122.png" width="100px">
+									</div>
+									<div style="height: 180px; ">
+										<a class="services_item" href="javascript:void(0);">
+											<p><b>Consultas Médicas de Especialidade</b> </p>
+											<span style="padding: 0px 10px ;">O Centro Clínico encontra-se aberto de
+												Segunda a Sexta-feira das 7H00 às 20H00
+												e Sábados...</span>
+										</a>
+									</div>
+									<div class="purpose_block">
+										<a class="btn btn-active" href="saberMais.html" style="border-radius: 10px;"><span
+												data-hover="Explore">Saber
+												Mais</span></a>
+									</div>
+								</div>
+
+								<div
+									style=" width: 260px; height: 400px; box-shadow: 0 0px 8px 0 rgb(0 0 0 / 8%), 0 2px 4px 0 rgb(0 0 0 / 6%); border-radius: 10px; background-color: #f8fafc;">
+									<div style="padding: 10px;">
+										<img src="images/teste1.jpg" width="100px">
+									</div>
+									<div style="height: 180px; ">
+										<a class="services_item" href="javascript:void(0);">
+											<p><b>Serviços de Saúde Ocupacional</b> </p>
+											<span style="padding: 0px 10px ;">Efetuamos: Exames Médicos de Admissão /
+												Periódicos / Exames Complementares de
+												Diagnóstico...</span>
+										</a>
+									</div>
+									<div class="purpose_block">
+										<a class="btn btn-active" href="Serviço.html" style="border-radius: 10px;"><span
+												data-hover="Explore">Saber
+												Mais</span></a>
+									</div>
+								</div>
+
+								<div
+									style=" width: 260px; height: 400px; box-shadow: 0 0px 8px 0 rgb(0 0 0 / 8%), 0 2px 4px 0 rgb(0 0 0 / 6%); border-radius: 10px; background-color: #f8fafc;">
+									<div style="padding: 10px;">
+										<img src="images/1122.png" width="100px">
+									</div>
+									<div style="height: 180px; ">
+										<a class="services_item" href="javascript:void(0);">
+											<p><b>Exames Complementares de Diagnóstico</b></p>
+											<span style="padding: 0px 10px ;">O Centro Médico Farmaclinic mantém uma
+												relação privilegiada com o laboratório
+												de análises...</span>
+										</a>
+									</div>
+									<div class="purpose_block">
+										<a class="btn btn-active" href="Exame.html" style="border-radius: 10px;"><span
+												data-hover="Explore">Saber
+												Mais</span></a>
+									</div>
+
+								</div>
+								<div
+									style=" width: 260px; height: 400px; box-shadow: 0 0px 8px 0 rgb(0 0 0 / 8%), 0 2px 4px 0 rgb(0 0 0 / 6%); border-radius: 10px; background-color: #f8fafc;">
+									<div style="padding: 10px;">
+										<img src="images/1122.png" width="100px">
+									</div>
+									<div style="height: 180px; ">
+										<a class="services_item" href="javascript:void(0);">
+											<p><b>Análises Clínicas</b></p>
+											<span style="padding: 0px 10px ;">As Análises Clínicas são um conjunto de
+												exames e testes
+												realizados em contexto laboratorial, visando o
+												diagnóstico de uma determinada patologia.</span>
+										</a>
+									</div>
+									<div class="purpose_block">
+										<a class="btn btn-active" href="Analise.html" style="border-radius: 10px;"><span
+												data-hover="Explore">Saber
+												Mais</span></a>
+									</div>
+
+								</div>
+								<div
+									style=" width: 260px; height: 400px; box-shadow: 0 0px 8px 0 rgb(0 0 0 / 8%), 0 2px 4px 0 rgb(0 0 0 / 6%); border-radius: 10px; background-color: #f8fafc;">
+									<div style="padding: 10px;">
+										<img src="images/1122.png" width="100px">
+									</div>
+									<div style="height: 180px; ">
+										<a class="services_item" href="javascript:void(0);">
+											<p><b>Parcerias</b></p>
+											<span>O Centro Médico Farmaclinic mantém uma relação privilegiada com o
+												laboratório
+												de análises...</span>
+										</a>
+									</div>
+									<div class="purpose_block">
+										<a class="btn btn-active" style="border-radius: 10px;"><span
+												data-hover="Explore">Saber
+												Mais</span></a>
+									</div>
+
+								</div>
+							</div>
+
+
+						</div><!-- //CONTAINER -->
+					</div><!-- //SERVICES -->
+				</div>
+
+				<!-- CLEAN CODE -->
+
+				<div class="cleancode_block"  data-appear-top-offset="-200" data-animated="fadeInUp">
+
+					<!-- CONTAINER -->
+					<div class="col-12" style="background-color: #18181867; padding: 10px 0px;">
+						<div class="container">
+							<!-- CASTOM TAB -->
+							<div id="myTabContent" class="tab-content">
+								<div class="tab-pane fade in active clearfix" id="tab1">
+									<p class="title"><b>Ultrassonografia (Ecografias)</b></p>
+									<span>A Ultrassonografia ou Ecografia é um método de estudo
+										e diagnóstico que permite, graças à emissão de ondas
+										sonoras ou ultrassons, examinar diversas áreas do corpo
+										e órgãos e confirmar um diagnóstico clínico. Pode,
+										portanto, ser usada para fins muito diversos. </span>
+								</div>
+								<div class="tab-pane fade clearfix" id="tab2">
+									<p class="title"><b>Electrocardiograma</b></p>
+									<span>O Electrocardiograma (ECG) não é mais do que um
+										registo da atividade elétrica do coração, sendo um
+										exame importante de avaliação em cardiologia. Entre
+										outras funções, permite-nos avaliar o doente com dor
+										no peito de causa desconhecida, assim como todos os
+										casos em que há suspeita de alterações cardíacas, sejam
+										elas a doença coronária sintomática (angina de peito), o
+										enfarte do miocárdio ou as arritmias cardíacas. </span>
+								</div>
+								<div class="tab-pane fade clearfix" id="tab3">
+									<p class="title"><b>Espirometria</b></p>
+									<span>O teste de espirometria é um exame de diagnóstico que
+										permite medir o fluxo de ar que entra e sai dos pulmões.
+										É um teste útil para avaliar a capacidade pulmonar e
+										verificar se há alguma obstrução à passagem do ar em
+										indivíduos com problemas respiratórios como bronquite, asma, pneumonia, tosse e
+										falta de ar, por
+										exemplo.
+									</span>
+								</div>
+								<div class="tab-pane fade clearfix" id="tab4">
+									<p class="title"><b>Audiometria</b></p>
+									<span>A Audiometria é um exame que avalia a via aérea e a via
+										óssea da audição e tem como finalidade diferenciar as
+										pessoas que têm audição normal, daquelas que
+										apresentam algum grau de déficit auditivo. Quando
+										detecta qualquer anormalidade auditiva permite medir
+										o seu grau e tipo de alteração. É um exame realizado a indivíduos expostos a
+										ruídos, no
+										âmbito da Medicina do Trabalho. </span>
+								</div>
+								<div class="tab-pane fade clearfix" id="tab5">
+									<p class="title"><b>Análises Clínicas</b></p>
+									<span>A Farmaclinic possui um Laboratório de Análises, gerido
+										pela Empresa parceira Healthgest, que possui,
+										actualmente, dos mais avançados e modernos
+										Laboratórios de Angola. O Laboratório da Farmaclinic
+										está equipado técnica, científica e humanamente para
+										realizar os exames laboratoriais de resultados mais
+										imediatos.
+										Todas os outras análises clínicas são realizadas pelo
+										serviço de Patologia Clínica da Healthgest, que possui
+										valências completas nas áreas de: Hematologia,
+										Bioquímica, Imunologia, Auto-imunidade, Citopatologia,
+										Microbiologia e Parasitologia.
+									</span>
+								</div>
+								<div class="tab-pane fade clearfix" id="tab6">
+									<p class="title"><b>Hematologia</b></p>
+									<span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+										Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+										when an unknown printer took a galley of type and scrambled it to make a type
+										specimen book. </span>
+								</div>
+							</div>
+							<ul id="myTab" class="nav nav-tabs">
+								<li class="active"><a class="i1" href="#tab1" data-toggle="tab"><i></i><span>Cardiologia
+										</span></a></li>
+								<li><a class="i2" href="#tab2" data-toggle="tab"><i></i><span>Psiquiatria</span></a>
+								</li>
+								<li><a class="i3" href="#tab3" data-toggle="tab"><i></i><span>Clinica Geral</span></a>
+								</li>
+								<li><a class="i4" href="#tab4" data-toggle="tab"><i></i><span>Dermatologia</span></a>
+								</li>
+								<li><a class="i5" href="#tab5" data-toggle="tab"><i></i><span>Diabetologia</span></a>
+								</li>
+								<li><a class="i6" href="#tab6" data-toggle="tab"><i></i><span>Hematologia</span></a>
+								</li>
+							</ul><!-- CASTOM TAB -->
+						</div><!-- //CONTAINER -->
+					</div><!-- //CLEAN CODE -->
+				</div>
+				<!-- MULTI PURPOSE -->
+				<div class="purpose_block">
+
+					<!-- CONTAINER -->
+					<div class="container">
+
+						<!-- ROW -->
+						<div class="row">
+
+							<div class="col-lg-7 col-md-7 col-sm-7" data-appear-top-offset="-200"
+								data-animated="fadeInLeft">
+								<h2 style="margin-top: 45px"> Marque agora a sua <b>Consulta</b></h2>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+									Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+									when an unknown printer took a galley of type and scrambled it to make a type
+									specimen book. .</p>
+								<p>It has survived not only five centuries, but also the leap into electronic
+									typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+									the release of Letraset sheets containing Lorem Ipsum.</p>
+								<a class="btn btn-active" href="javascript:void(0);"><span
+										data-hover="Sim, tu precisas"> Marque Agora</span></a>
+								<a class="btn" href="javascript:void(0);">Ligue para a nossa central</a>
+
+							</div>
+
+							<div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in" data-appear-top-offset="-200"
+								data-animated="fadeInRight">
+								<img class="ipad_img1" src="images/img2.png" alt="" />
+							</div>
+						</div><!-- //ROW -->
+					</div><!-- //CONTAINER -->
+				</div><!-- //MULTI PURPOSE -->
+			</section><!-- //ABOUT -->
+
+
+			<!-- PROJECTS -->
+			<section id="projects" class="padbot20">
+
+				<!-- CONTAINER -->
+				<div class="container">
+					<h2 style="margin-top: 40px;"><b>Especialidades</b></h2>
+				</div><!-- //CONTAINER -->
+
+
+				<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+					<!-- PROJECTS SLIDER -->
+					<div class="owl-demo owl-carousel projects_slider">
+
+						<!-- work1 -->
+						<div class="item">
+							<div class="work_item">
+								<div class="work_img">
+									<img src="images/4.jpg" alt="" />
+
+								</div>
+								<div class="work_description">
+									<div class="work_descr_cont">
+										<a href="portfolio-post.html">Ginecologia / Obstetricia</a>
+										<span>Texto de Texto Lorem</span>
+									</div>
+								</div>
+							</div>
+						</div><!-- //work1 -->
+
+						<!-- work2 -->
+						<div class="item">
+							<div class="work_item">
+								<div class="work_img">
+									<img src="images/5.avif" alt="" />
+									<a class="zoom" href="images/5.avif" rel="prettyPhoto[portfolio1]"></a>
+								</div>
+								<div class="work_description">
+									<div class="work_descr_cont">
+										<a href="portfolio-post.html">Pediatria</a>
+										<span>17 Janeiro, 2024</span>
+									</div>
+								</div>
+							</div>
+						</div><!-- //work2 -->
+
+						<!-- work3 -->
+						<div class="item">
+							<div class="work_item">
+								<div class="work_img">
+									<img src="images/2.avif" alt="" />
+
+								</div>
+								<div class="work_description">
+									<div class="work_descr_cont">
+										<a href="portfolio-post.html">Cardiologia</a>
+										<span>15 fevereiro, 2024</span>
+									</div>
+								</div>
+							</div>
+						</div><!-- //work3 -->
+
+						<!-- work4 -->
+						<div class="item">
+							<div class="work_item">
+								<div class="work_img">
+									<img src="images/3.avif" alt="" />
+									<a class="zoom" href="images/3.avif" rel="prettyPhoto[portfolio1]"></a>
+								</div>
+								<div class="work_description">
+									<div class="work_descr_cont">
+										<a href="portfolio-post.html">Ortopedia</a>
+										<span>17 agosto, 2023</span>
+									</div>
+								</div>
+							</div>
+						</div><!-- //work4 -->
+
+						<!-- work5 -->
+						<div class="item">
+							<div class="work_item">
+								<div class="work_img">
+									<img src="images/2.avif" alt="" />
+
+								</div>
+								<div class="work_description">
+									<div class="work_descr_cont">
+										<a href="portfolio-post.html">Urologia</a>
+										<span>17 agosto, 2023</span>
+									</div>
+								</div>
+							</div>
+						</div><!-- //work5 -->
+
+						<!-- work6 -->
+						<div class="item">
+							<div class="work_item">
+								<div class="work_img">
+									<img src="images/3.avif" alt="" />
+
+								</div>
+								<div class="work_description">
+									<div class="work_descr_cont">
+										<a href="portfolio-post.html">Gastroenterologia</a>
+										<span>17 March, 2041</span>
+									</div>
+								</div>
+							</div>
+						</div><!-- //work6 -->
+
+						<!-- work7 -->
+						<div class="item">
+							<div class="work_item">
+								<div class="work_img">
+									<img src="images/4.jpg" alt="" />
+
+								</div>
+								<div class="work_description">
+									<div class="work_descr_cont">
+										<a href="portfolio-post.html">Otorrinolaringologia</a>
+										<span>17 March, 2041</span>
+									</div>
+								</div>
+							</div>
+						</div><!-- //work7 -->
+
+						<div class="item">
+							<div class="work_item">
+								<div class="work_img">
+									<img src="images/5.avif" alt="" />
+
+								</div>
+								<div class="work_description">
+									<div class="work_descr_cont">
+										<a href="portfolio-post.html">Endocrinologista</a>
+										<span>17 March, 2041</span>
+									</div>
+								</div>
+							</div>
+						</div><!-- //work7 -->
+
+						<div class="item">
+							<div class="work_item">
+								<div class="work_img">
+									<img src="images/2.avif" alt="" />
+
+								</div>
+								<div class="work_description">
+									<div class="work_descr_cont">
+										<a href="portfolio-post.html">Neurologia</a>
+										<span>17 March, 2041</span>
+									</div>
+								</div>
+							</div>
+						</div><!-- //work7 -->
+
+						<div class="item">
+							<div class="work_item">
+								<div class="work_img">
+									<img src="images/3.avif" alt="" />
+
+								</div>
+								<div class="work_description">
+									<div class="work_descr_cont">
+										<a href="portfolio-post.html">Dermatologia</a>
+										<span>17 March, 2041</span>
+									</div>
+								</div>
+							</div>
+						</div><!-- //work7 -->
+
+						<div class="item">
+							<div class="work_item">
+								<div class="work_img">
+									<img src="images/2.avif" alt="" />
+
+								</div>
+								<div class="work_description">
+									<div class="work_descr_cont">
+										<a href="portfolio-post.html">Pneumologia</a>
+										<span>17 March, 2041</span>
+									</div>
+								</div>
+							</div>
+						</div><!-- //work7 -->
+
+						<div class="item">
+							<div class="work_item">
+								<div class="work_img">
+									<img src="images/3.avif" alt="" />
+
+								</div>
+								<div class="work_description">
+									<div class="work_descr_cont">
+										<a href="portfolio-post.html">Oftalmología / Optometria</a>
+										<span>17 March, 2041</span>
+									</div>
+								</div>
+							</div>
+						</div><!-- //work7 -->
+
+						<div class="item">
+							<div class="work_item">
+								<div class="work_img">
+									<img src="images/2.avif" alt="" />
+
+								</div>
+								<div class="work_description">
+									<div class="work_descr_cont">
+										<a href="portfolio-post.html">Psicologia</a>
+										<span>17 March, 2041</span>
+									</div>
+								</div>
+							</div>
+						</div><!-- //work7 -->
+
+						<div class="item">
+							<div class="work_item">
+								<div class="work_img">
+									<img src="images/3.avif" alt="" />
+
+								</div>
+								<div class="work_description">
+									<div class="work_descr_cont">
+										<a href="portfolio-post.html">Fisioterapia</a>
+										<span>17 March, 2041</span>
+									</div>
+								</div>
+							</div>
+						</div><!-- //work7 -->
+
+						<div class="item">
+							<div class="work_item">
+								<div class="work_img">
+									<img src="images/2.avif" alt="" />
+
+								</div>
+								<div class="work_description">
+									<div class="work_descr_cont">
+										<a href="portfolio-post.html">Ecografias</a>
+										<span>17 March, 2041</span>
+									</div>
+								</div>
+							</div>
+						</div><!-- //work7 -->
+
+						<div class="item">
+							<div class="work_item">
+								<div class="work_img">
+									<img src="images/5.avif" alt="" />
+
+								</div>
+								<div class="work_description">
+									<div class="work_descr_cont">
+										<a href="portfolio-post.html">RX</a>
+										<span>17 March, 2041</span>
+									</div>
+								</div>
+							</div>
+						</div><!-- //work7 -->
+					</div><!-- //PROJECTS SLIDER -->
+				</div>
+
+
+				<!-- OUR CLIENTS -->
+				<div class="our_clients">
+
+					<!-- CONTAINER -->
+					<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+						<!-- ROW -->
+						<div class="row">
+							<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+								<img src="images/clients/1.jpg" alt="" />
+							</div>
+							<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+								<img src="images/clients/2.jpg" alt="" />
+							</div>
+							<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+								<img src="images/clients/3.jpg" alt="" />
+							</div>
+							<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+								<img src="images/clients/4.jpg" alt="" />
+							</div>
+							<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+								<img src="images/clients/5.jpg" alt="" />
+							</div>
+							<div class="col-lg-2 col-md-2 col-sm-2 client_img">
+								<img src="images/clients/6.jpg" alt="" />
+							</div>
+						</div><!-- //ROW -->
+					</div><!-- CONTAINER -->
+				</div><!-- //OUR CLIENTS -->
+			</section><!-- //PROJECTS -->
+
+
+
+
+
+			<!-- NEWS -->
+			<section id="news">
+
+				<!-- CONTAINER -->
+				<div class="container">
+					<h2>O que os <b>Clientes</b> dizem Sobre nós</h2>
+
+					<!-- TESTIMONIALS -->
+					<div class="testimonials" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+						<!-- TESTIMONIALS SLIDER -->
+						<div class="owl-demo owl-carousel testim_slider">
+
+							<!-- TESTIMONIAL1 -->
+							<div class="item">
+								<div class="testim_content">“Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+									since the 1500s, when an unknown printer took a galley of type and scrambled it to
+									make a type specimen book. It has survived not only five centuries,”</div>
+								<div class="testim_author">— Carlos Barbosa, <b>Facebook</b></div>
+							</div><!-- TESTIMONIAL1 -->
+
+							<!-- TESTIMONIAL2 -->
+							<div class="item">
+								<div class="testim_content">“Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+									since the 1500s, when an unknown printer took a galley of type and scrambled it to
+									make a type specimen book. It has survived not only five centuries,”</div>
+								<div class="testim_author">— Anna Rodrigyes, <b>Instagram</b></div>
+							</div><!-- TESTIMONIAL2 -->
+
+							<!-- TESTIMONIAL3 -->
+							<div class="item">
+								<div class="testim_content">“Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+									since the 1500s, when an unknown printer took a galley of type and scrambled it to
+									make a type specimen book. It has survived not only five centuries,”</div>
+								<div class="testim_author">— Sara Andrade, <b>Facebook</b></div>
+							</div><!-- TESTIMONIAL3 -->
+						</div><!-- TESTIMONIALS SLIDER -->
+					</div><!-- //TESTIMONIALS -->
+
+					<!-- RECENT POSTS -->
+					<div class="row recent_posts" data-appear-top-offset="-200" data-animated="fadeInUp">
+						<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
+							<div class="post_item">
+								<div class="post_item_img">
+									<img src="images/2.jpg" alt="" />
+									<a class="link" href="blog-post.html"></a>
+								</div>
+								<div class="post_item_content">
+									<a class="title" href="blog-post.html">Surto de conjuntivite asola população de
+										Bengo</a>
+									<ul class="post_item_inf">
+										<li><a href="javascript:void(0);">Paulo Augusto</a> |</li>
+										<li><a href="javascript:void(0);">odontologista</a> |</li>
+										<li><a href="javascript:void(0);">12 de Março de 2024</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
+							<div class="post_item">
+								<div class="post_item_img">
+									<img src="images/3.jpg" alt="" />
+									<a class="link" href="blog-post.html"></a>
+								</div>
+								<div class="post_item_content">
+									<a class="title" href="blog-post.html">Numéros de COVID-19 disparam em Luanda</a>
+									<ul class="post_item_inf">
+										<li><a href="javascript:void(0);">Paulo Augusto</a> |</li>
+										<li><a href="javascript:void(0);">odontologista</a> |</li>
+										<li><a href="javascript:void(0);">12 de Março de 2024</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
+							<div class="post_item">
+								<div class="post_item_img">
+									<img src="images/5.png" alt="" />
+									<a class="link" href="blog-post.html"></a>
+								</div>
+								<div class="post_item_content">
+									<a class="title" href="blog-post.html">Casos de DST no Lubango Preocupam
+										população</a>
+									<ul class="post_item_inf">
+										<li><a href="javascript:void(0);">Paulo Augusto</a> |</li>
+										<li><a href="javascript:void(0);">odontologista</a> |</li>
+										<li><a href="javascript:void(0);">12 de Março de 2024</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><!-- RECENT POSTS -->
+				</div><!-- //CONTAINER -->
+			</section><!-- //NEWS -->
+		</div><!-- //PAGE -->
+
+		<!-- CONTACTS -->
+		<section id="contacts">
+		</section><!-- //CONTACTS -->
+
+		<!-- FOOTER -->
+		<footer>
+
+			<!-- CONTAINER -->
+			<div class="container">
+
+				<!-- ROW -->
+				<div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+					<div class="col-lg-4 col-md-4 col-sm-6 padbot30">
+						<h4><b>Destaques</b></h4>
+						<div class="recent_posts_small clearfix">
+							<div class="post_item_img_small">
+								<img src="images/blog/1.jpg" alt="" />
+							</div>
+							<div class="post_item_content_small">
+								<a class="title" href="blog.html">Lorem Ipsum is simply dummy text of the printing and
+								</a>
+								<ul class="post_item_inf_small">
+									<li>10 Janeiro 2024</li>
+								</ul>
+							</div>
+						</div>
+						<div class="recent_posts_small clearfix">
+							<div class="post_item_img_small">
+								<img src="images/blog/2.jpg" alt="" />
+							</div>
+							<div class="post_item_content_small">
+								<a class="title" href="blog.html">Lorem Ipsum is simply dummy text of the printing
+									and</a>
+								<ul class="post_item_inf_small">
+									<li>14 Janeiro 2024</li>
+								</ul>
+							</div>
+						</div>
+						<div class="recent_posts_small clearfix">
+							<div class="post_item_img_small">
+								<img src="images/blog/3.jpg" alt="" />
+							</div>
+							<div class="post_item_content_small">
+								<a class="title" href="blog.html">Lorem Ipsum is simply dummy text of the printing
+									and</a>
+								<ul class="post_item_inf_small">
+									<li>21 Fevereiro 2024</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-6 padbot30 foot_about_block">
+						<h4><b>Sobre Nós </b> </h4>
+						<p>We value people over profits, quality over quantity, and keeping it real. As such, we deliver
+							an unmatched working relationship with our clients.</p>
+						<p>Our team is intentionally small, eclectic, and skilled; with our in-house expertise, we
+							provide sharp and</p>
+						<ul class="social">
+							<li><a href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="javascript:void(0);"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="javascript:void(0);"><i class="fa fa-pinterest-square"></i></a></li>
+							<li><a href="javascript:void(0);"><i class="map_show fa fa-map-marker"></i></a></li>
+						</ul>
+					</div>
+
+					<div class="respond_clear"></div>
+
+					<div class="col-lg-4 col-md-4 padbot30">
+						<h4><b>Contacte-nos</b></h4>
+
+						<!-- CONTACT FORM -->
+						<div class="span9 contact_form">
+							<div id="note"></div>
+							<div id="fields">
+								<form id="contact-form-face" class="clearfix" action="#">
+									<input type="text" name="name" value="Name"
+										onFocus="if (this.value == 'Name') this.value = '';"
+										onBlur="if (this.value == '') this.value = 'Name';" />
+									<textarea name="message" onFocus="if (this.value == 'Message') this.value = '';"
+										onBlur="if (this.value == '') this.value = 'Message';">Mensagens</textarea>
+									<input class="contact_btn" type="submit" value="Send message" />
+								</form>
+							</div>
+						</div><!-- //CONTACT FORM -->
+					</div>
+				</div><!-- //ROW -->
+			</div><!-- //CONTAINER -->
+		</footer><!-- //FOOTER -->
+
+
+		<!-- MAP -->
+		<div id="map">
+			<a class="map_hide" href="javascript:void(0);"><i class="fa fa-angle-right"></i><i
+					class="fa fa-angle-left"></i></a>
+			<iframe
+				src="http://maps.google.com/maps?f=q&amp;give%20a%20hand=s_q&amp;hl=en&amp;geocode=&amp;q=london&amp;sll=37.0625,-95.677068&amp;sspn=42.631141,90.263672&amp;ie=UTF8&amp;hq=&amp;hnear=London,+United+Kingdom&amp;ll=51.500141,-0.126257&amp;spn=0.026448,0.039396&amp;z=14&amp;output=embed"></iframe>
+		</div><!-- //MAP -->
+
+	</div>
+</body>
+
+</html>
