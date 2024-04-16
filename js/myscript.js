@@ -147,7 +147,7 @@ jQuery(document).ready(function(){
 });
 
 function homeHeight(){
-	var wh = jQuery(window).height() - 430;
+	var wh = jQuery(window).height() - 350;
 	jQuery('.top_slider, .top_slider .slides li').css('height', wh);
 }
 
@@ -307,4 +307,27 @@ jQuery(document).ready(function() {
 
 
 
+
+
+$(document).ready(function() {
+    $(window).scroll(function() {
+        $('.animate-left, .animate-right').each(function() {
+            var position = $(this).offset().top;
+            var windowHeight = $(window).height();
+            var windowTop = $(window).scrollTop();
+            var elementWidth = $(this).outerWidth();
+            var windowWidth = $(window).width();
+            var distanceFromLeft = $(this).offset().left;
+            var distanceFromRight = windowWidth - distanceFromLeft - elementWidth;
+            
+            if (position < windowTop + windowHeight) {
+                if ($(this).hasClass('animate-left')) {
+                    $(this).css('transform', 'translateX(0)');
+                } else if ($(this).hasClass('animate-right')) {
+                    $(this).css('transform', 'translateX(0)');
+                }
+            }
+        });
+    });
+});
 

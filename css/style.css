@@ -2042,6 +2042,32 @@ input[type="color"]:focus {
 
 
 
+/* datasheet tab */
+.product-page-content .datasheet {
+	width: 100%;
+	font-size: inherit;
+}
+.product-page-content .datasheet th {
+	border-bottom: solid 2px #eee;
+	padding-bottom: 5px;
+	font-size: 15px;
+}
+.product-page-content .datasheet td {
+	padding: 5px 10px;
+	border-bottom: solid 2px #eee;
+}
+
+.animate-left {
+    width: 100%;
+    transform: translateX(-200%);
+    transition: transform 0.5s;
+}
+
+.animate-right {
+    width: 100%;
+    transform: translateX(200%);
+    transition: transform 0.5s;
+}
 
 
 
