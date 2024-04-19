@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Farmaclinic</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<link rel="shortcut icon" href="images/Farma Clinic foto de perfil.png">
+
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+	<!-- FONTS -->
+	<link
+		href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic'
+		rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+	<!-- SCRIPTS -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<!--[if IE]><html class="ie" lang="en"> <![endif]-->
+
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+	<script src="js/superfish.min.js" type="text/javascript"></script>
+	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script src="js/animate.js" type="text/javascript"></script>
+	<script src="js/jquery.BlackAndWhite.js"></script>
+	<script src="js/myscript.js" type="text/javascript"></script>
+	<script>
+
+		//PrettyPhoto
+		jQuery(document).ready(function () {
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+
+		//BlackAndWhite
+		$(window).load(function () {
+			$('.client_img').BlackAndWhite({
+				hoverEffect: true, // default true
+				// set the path to BnWWorker.js for a superfast implementation
+				webworkerPath: false,
+				// for the images with a fluid width and height 
+				responsive: true,
+				// to invert the hover effect
+				invertHoverEffect: false,
+				// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+				intensity: 1,
+				speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+					fadeIn: 300, // 200ms for fadeIn animations
+					fadeOut: 300 // 800ms for fadeOut animations
+				},
+				onImageReady: function (img) {
+					// this callback gets executed anytime an image is converted
+				}
+			});
+		});
+
+	</script>
+
+</head>
+
+<body>
+
+	<!-- PRELOADER -->
+	<img id="preloader" src="images/preloader.gif" alt="" />
+	<!-- //PRELOADER -->
+	<div class="preloader_hide">
+
+		<!-- PAGE -->
+		<div id="page" class="single_page">
+
+			<header>
+
+				<!-- MENU BLOCK -->
+				<div class="menu_block">
+
+					<!-- CONTAINER -->
+					<div class="container clearfix">
+
+						<!-- LOGO -->
+						<div class="logo pull-left">
+							<a style="font-size: 12px;" href="index.html"><img src="images/farmaclinic.png"></a>
+
+						</div><!-- //LOGO -->
+
+						<!-- SEARCH FORM -->
+						<div id="search-form" class="pull-right">
+							<form method="get" action="#">
+								<input type="text" name="Search" value="Search"
+									onFocus="if (this.value == 'Search') this.value = '';"
+									onBlur="if (this.value == '') this.value = 'Search';" />
+							</form>
+						</div><!-- SEARCH FORM -->
+
+						<!-- MENU -->
+						<div class="pull-right">
+							<nav class="navmenu center">
+								<ul>
+
+									<li class="scroll_btn"><a href="#about">Farmácia</a></li>
+									<li class="scroll_btn"><a href="#projects">Centro Médico</a></li>
+									<li class="scroll_btn"><a href="#news">Notícias</a></li>
+									<li class="scroll_btn last"><a href="#contacts">Contacts</a></li>
+									<li class="sub-menu">
+										<a href="javascript:void(0);">Pages</a>
+										<ul>
+											<li><a href="blog.html">Contactos</a></li>
+											<li><a href="blog-post.html">Blog Post</a></li>
+											<li><a href="portfolio-post.html">Portfolio Single Work</a></li>
+										</ul>
+									</li>
+								</ul>
+							</nav>
+						</div><!-- //MENU -->
+					</div><!-- //MENU BLOCK -->
+				</div><!-- //CONTAINER -->
+			</header><!-- //HEADER -->
+
+
+
+			<!-- BLOG -->
+			<section id="blog">
+
+				<div class="container">
+
+				<div style="margin-bottom: 80px; background-color: #fff; text-align: justify;">
+					<h1 style="font-weight: 700;">Quem Somos ?</h1>
+					<p style="font-size: 15px; line-height: 20px; letter-spacing: 1px;  "> A Farmaclinic é uma Empresa de Direito Angolano, de 
+						Serviços de Saúde, focada nos serviços Médicos 
+						especializados. 
+					</p>
+					<p style="font-size: 15px; line-height: 20px; letter-spacing: 1px;  ">
+						Situada numa das principais artérias de Viana, a 
+						Farmaclinic foi planeada e construída de raiz para 
+						oferecer, em especial á população de Luanda Sul e 
+						Viana, a possibilidade de dispor de um conjunto 
+						completo de serviços ambulatórios num único local.
+					</p>
+						<p style="font-size: 15px; line-height: 20px; letter-spacing: 1px;  ">A Farmaclinic dispõe de um vasto leque de 
+						especialidades Médicas, com profissionais de Saúde de 
+						referência e prestígio, exames complementares de 
+						diagnóstico, análises clínicas, Farmácia e outros 
+						Serviços, que visam responder às principais 
+						necessidades de cuidados de saúde da população, 
+						garantindo o seu bem-estar físico e psíquico.
+					</p>
+						<p style="font-size: 15px; line-height: 20px; letter-spacing: 1px;  ">Com uma abordagem multidisciplinar, assumimos um 
+						compromisso de eficiência e rigor, focados na satisfação 
+						dos nossos clientes, sempre no mais absoluto nível de 
+						discrição e confiança. 
+						</p>
+				</div>
+
+					<div class="nk-main">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="head_title text-center">
+
+									</div><!-- End of head title -->
+									<div class="nk-gap-4"></div>
+									<div class="main_service_area">
+
+										<div class="single_service_area ">
+											<div class="row" style="min-height: 386px">
+
+												<div class="col-sm-6"
+													style="display: flex; overflow: hidden; height: 280px; width: 300px; padding: 20px 0px; background-color: transparent; ">
+													<img src="images/imgg1.svg" width="250px"
+														style="object-fit: cover; " />
+												</div>
+
+												<div class="blog_post_descr" style="padding: 0px 20px;">
+
+													<h1 style="font-weight: 700;">A Nossa Missão</a></h1>
+													<a class="blog_post_title" style="padding: 0px;"
+														href="blog-post.html">Juntos pela sua Saúde</a>
+
+													<div class="blog_post_content" style="text-align: justify;">
+														<p><br>Dignificar e Humanizar o atendimento individualizado
+															ao paciente, diagnosticando e tratando de forma rápida
+															e eficiente, criando empatia e assegurando a saúde e o
+															bem-estar do ser humano em todas as suas valências.
+															<br>Construir uma organização formada por uma equipa
+															de colaboradores, competitiva, dinâmica e fortemente
+															comprometida com a organização, capaz de atrair,
+															desenvolver e reter pessoas excepcionais.
+															<br>Ser sustentável do ponto de vista ambiental e
+															socialmente responsável, contribuindo para o
+															desenvolvimento do Sector da Saúde em Angola, através
+															da participação em projectos globais.
+														</p>
+													</div>
+
+												</div>
+
+											</div>
+										</div><!-- End of single service area -->
+
+										<div
+											style="text-align: center; font-weight: 700; line-height: 4px; letter-spacing: 2px; margin-bottom: 80px;">
+											<h2><i>A Farmaclinic orgulha-se do profissionalismo e empenho
+													dos seus colaboradores, dotados de competências não
+													só técnicas como humanas, dedicados em proporcionar
+													um atendimento personalizado.</i></h2>
+										</div>
+
+										<div class="single_service_area  margin-top-50 ">
+											<div class="row">
+
+												<div class="col-sm-4 col-sm-push-10"
+													style="display: flex; overflow: hidden; height: 440px; width: 250px; padding: 5px 0px; ">
+													<div class="signle_service_left">
+														<img src="images/img.svg" width="250px"
+															style="object-fit: cover; " />
+													</div>
+												</div>
+
+												<div class="col-sm-8 col-sm-pull-2"
+													style="display: flex; overflow: hidden; height: auto; width: auto; padding: 0px; margin: 0px; justify-content: center; ">
+													<div class="blog_post_content"
+														style="text-align: justify; padding: 0px 20px; width: 900px;">
+
+														<h1 style="font-weight: 700;">Os nossos Valores</h1>
+														Seis valores fundamentais estão na
+															base da cultura da
+															Farmaclinic:
+
+														<div class="blog_post_content" style="text-align: justify;">
+
+															<ul class="blog_post_info">
+																<li>Respeito e humildade –
+																		Respeitamos os outros e as suas
+																		ideias e contamos com o seu contributo.
+																		Assumimos as
+																		limitações da nossa experiência e valorizamos
+																		outras
+																		perspectivas</li>
+																<li>Integridade – Somos
+																		honestos, leais e sérios em tudo o
+																		que fazemos tendo sempre presente os valores e
+																		expectativas dos nossos sócios e, acima de tudo,
+																		dos
+																		nossos clientes.</li>
+																<li>Qualidade – rapidez,
+																		eficiência e profissionalismo são os
+																		vectores centrais que procuramos conferir no
+																		atendimento aos nossos utentes</li>
+																<li>Espírito de Equipa –
+																		Acreditamos que o esforço
+																		colectivo é a melhor forma de alcançar os nossos
+																		objectivos e potenciar o impacto da nossa acção
+																		na
+																		comunidade local</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+
+											</div>
+										</div><!-- End of single service area -->
+
+										<div class="single_service_area ">
+											<div class="row" style="min-height: 440px">
+
+												<div class="col-sm-6"
+													style="display: flex; overflow: hidden; height: 280px; width: 300px; padding: 0px; background-color: transparent; ">
+													<img src="images/imgg1.svg" width="250px"
+														style="object-fit: cover; " />
+												</div>
+
+												<div class="blog_post_descr">
+
+													<h1 style="font-weight: 700;">A Nossa Missão</a></h1>
+													<a class="blog_post_title" style="padding: 0px;"
+														href="blog-post.html">Juntos pela sua Saúde</a>
+
+													<div class="blog_post_content" style="text-align: justify;">
+														<br>Dignificar e Humanizar o atendimento individualizado
+														ao paciente, diagnosticando e tratando de forma rápida
+														e eficiente, criando empatia e assegurando a saúde e o
+														bem-estar do ser humano em todas as suas valências.
+														<br>Construir uma organização formada por uma equipa
+														de colaboradores, competitiva, dinâmica e fortemente
+														comprometida com a organização, capaz de atrair,
+														desenvolver e reter pessoas excepcionais.
+														<br>Ser sustentável do ponto de vista ambiental e
+														socialmente responsável, contribuindo para o
+														desenvolvimento do Sector da Saúde em Angola, através
+														da participação em projectos globais.
+													</div>
+
+												</div>
+
+											</div>
+										</div><!-- End of single service area -->
+									</div>
+								</div><!-- End of col-sm-12 -->
+							</div><!-- End of row -->
+						</div><!-- End of Container -->
+					</div><!-- End of Service Section -->
+
+
+
+					<!-- CONTAINER -->
+					<div class="container">
+
+						<!-- ROW -->
+						<div class="row">
+
+							<!-- BLOG BLOCK -->
+
+						</div><!-- //ROW -->
+					</div><!-- //CONTAINER -->
+				</div><!-- //CONTAINER -->
+			</section><!-- //BLOG -->
+		</div><!-- //PAGE -->
+
+
+		<!-- CONTACTS -->
+		<section id="contacts">
+		</section><!-- //CONTACTS -->
+
+		<!-- FOOTER -->
+		<footer>
+
+			<!-- CONTAINER -->
+			<div class="container">
+
+				<!-- ROW -->
+				<div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
+
+					<div class="col-lg-4 col-md-4 col-sm-6 padbot30">
+						<h4><b>Featured</b> posts</h4>
+						<div class="recent_posts_small clearfix">
+							<div class="post_item_img_small">
+								<img src="images/blog/1.jpg" alt="" />
+							</div>
+							<div class="post_item_content_small">
+								<a class="title" href="blog.html">As we have developed a unique layout template</a>
+								<ul class="post_item_inf_small">
+									<li>10 January 2014</li>
+								</ul>
+							</div>
+						</div>
+						<div class="recent_posts_small clearfix">
+							<div class="post_item_img_small">
+								<img src="images/blog/2.jpg" alt="" />
+							</div>
+							<div class="post_item_content_small">
+								<a class="title" href="blog.html">How much is to develop a design for the game?</a>
+								<ul class="post_item_inf_small">
+									<li>14 January 2014</li>
+								</ul>
+							</div>
+						</div>
+						<div class="recent_posts_small clearfix">
+							<div class="post_item_img_small">
+								<img src="images/blog/3.jpg" alt="" />
+							</div>
+							<div class="post_item_content_small">
+								<a class="title" href="blog.html">How to pump designer</a>
+								<ul class="post_item_inf_small">
+									<li>21 December 2013</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-6 padbot30 foot_about_block">
+						<h4><b>Sobre Nós</b></h4>
+						<p>We value people over profits, quality over quantity, and keeping it real. As such, we deliver
+							an unmatched working relationship with our clients.</p>
+						<p>Our team is intentionally small, eclectic, and skilled; with our in-house expertise, we
+							provide sharp and</p>
+						<ul class="social">
+							<li><a href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="javascript:void(0);"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="javascript:void(0);"><i class="fa fa-pinterest-square"></i></a></li>
+							<li><a href="javascript:void(0);"><i class="map_show fa fa-map-marker"></i></a></li>
+						</ul>
+					</div>
+
+					<div class="respond_clear"></div>
+
+					<div class="col-lg-4 col-md-4 padbot30">
+						<h4><b>Contacts</b> Us</h4>
+
+						<!-- CONTACT FORM -->
+						<div class="span9 contact_form">
+							<div id="note"></div>
+							<div id="fields">
+								<form id="contact-form-face" class="clearfix" action="#">
+									<input type="text" name="name" value="Name"
+										onFocus="if (this.value == 'Name') this.value = '';"
+										onBlur="if (this.value == '') this.value = 'Name';" />
+									<textarea name="message" onFocus="if (this.value == 'Message') this.value = '';"
+										onBlur="if (this.value == '') this.value = 'Message';">Message</textarea>
+									<input class="contact_btn" type="submit" value="Send message" />
+								</form>
+							</div>
+						</div><!-- //CONTACT FORM -->
+					</div>
+				</div><!-- //ROW -->
+			</div><!-- //CONTAINER -->
+		</footer><!-- //FOOTER -->
+
+
+
+	</div>
+</body>
+
+</html>
