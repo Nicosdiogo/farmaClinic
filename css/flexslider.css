@@ -91,19 +91,7 @@ html[xmlns] .slides {
 	background-color: #ccc;
 }
 
-.flexslider.top_slider:before {
-	content: '';
-	position: absolute;
-	z-index: 3;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 80px;
-	background-image: url(../images/slider/slide_shadow.png);
-	background-repeat: repeat-x;
-	background-size: auto 100%;
-	-webkit-background-size: auto 100%;
-}
+
 
 .flex-viewport {
 	max-height: 2000px;
